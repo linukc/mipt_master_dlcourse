@@ -1,5 +1,14 @@
-![](images/logo.png)
+# Install
 
-Ноутбуки для студентов по курсу DL frameworks:
-- [2022 / 2023](https://github.com/linukc/master_dlcourse/tree/2022_2023)
-- [2024](https://github.com/linukc/master_dlcourse/tree/2024)
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install --upgrade pip
+pip install jupyter
+```
+
+# Convert
+
+```bash
+jupyter nbconvert --to latex your_notebook.ipynb
+```
